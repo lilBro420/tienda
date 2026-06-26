@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #F2F2F2;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base custom focus styles for Cupertino vibe */
+input:focus, select:focus {
+  outline: none;
+}
